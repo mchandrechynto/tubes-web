@@ -1,0 +1,436 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin-bottom: 0;
+}
+
+/* Awal Navbar */
+.bg-nav {
+  background-color: #6969f8;
+}
+
+.navbar {
+  padding: 1rem 5rem;
+}
+
+.navbar-brand {
+  font-weight: 600;
+}
+
+.nav-link {
+  margin-left: 40px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: #6969f8;
+}
+
+.navbar-toggler {
+  padding: unset;
+  border: none;
+}
+/* Akhir Navbar */
+
+/* Awal Jumbotron */
+.jumbotron {
+  background-color: #6969f8;
+  padding: unset;
+  margin-bottom: 0;
+}
+
+.container-jumbotron {
+  display: flex;
+  align-items: center;
+  margin: 0 5rem;
+  padding-top: 4rem;
+}
+
+article {
+  margin-left: 130px;
+}
+
+.display-4 {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.container-jumbotron .lead {
+  color: white;
+  margin-top: 0.4rem;
+}
+
+.ilustrasi {
+  max-width: 700px;
+}
+
+.button {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px 50px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #ea5563;
+  border: 1px solid #ea5563;
+  text-decoration: unset;
+  color: #ffffff;
+}
+/* Akhir Jumbotron */
+
+.title {
+  margin-top: 8rem;
+  margin-bottom: 4rem;
+  text-align: center;
+  color: gainsboro;
+}
+
+/* Awal About */
+.img-about {
+  width: 355px;
+  margin-left: 150px;
+}
+
+#about .lead {
+  text-align: center;
+}
+
+#about .row {
+  align-items: center;
+  justify-content: center;
+}
+/* Akhir About */
+
+/* Awal Card */
+#slogan .card {
+  border: unset;
+}
+.card-deck {
+  margin: 0 5rem;
+}
+
+#slogan .card-body {
+  text-align: center;
+}
+/* Akhir Card */
+
+/* Awal Project */
+.row {
+  margin: 0 5rem !important;
+}
+
+.card-title {
+  margin-bottom: 0;
+}
+/* Akhir Project */
+
+/* Awal Join */
+#join .lead {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.button-2 {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px 50px;
+  color: white;
+  background-color: #ea5563;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.button-2:hover {
+  background-color: #f17380;
+  color: white;
+  text-decoration: unset;
+}
+/* Akhir Join */
+
+/* Awal Footer */
+footer {
+  margin-top: 8rem;
+  padding: 10px 0;
+  color: white;
+  background-color: rgb(29, 28, 28);
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: unset;
+}
+
+footer .bi-box,
+footer span {
+  color: #ea5563;
+}
+/* Akhir Footer */
+
+/* ---ALL MOBILE VERSION--- */
+@media (max-width: 540px) {
+  /*Awal Navbar*/
+  .navbar {
+    padding: 1rem;
+  }
+
+  .mt-5 {
+    text-align: center;
+  }
+
+  .nav-link {
+    margin-left: 0;
+  }
+  /*Akhir Navbar*/
+
+  /*Awal Jumbotron*/
+  .container-jumbotron {
+    display: unset;
+    margin: 0 1rem;
+  }
+
+  article {
+    margin-left: unset;
+    margin: 1rem;
+  }
+
+  .display-4 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .lead {
+    font-size: 1.125rem;
+  }
+
+  .lead,
+  .button {
+    text-align: center;
+  }
+
+  .ilustrasi {
+    width: 287px;
+    margin: 1rem 1.3rem;
+  }
+  /*Akhir Jumbotron*/
+
+  /*Awal Card*/
+  .card-deck {
+    margin: 0 1rem;
+  }
+  /*Akhir Card*/
+
+  .title {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+  }
+
+  /* Project */
+  /*About*/
+  .row {
+    margin: 0 1rem !important;
+  }
+
+  .img-about {
+    max-width: 250px;
+    margin: 1rem auto;
+  }
+
+  /* Join */
+  #join .lead {
+    margin: 0 1rem;
+  }
+
+  /* Awal Footer */
+  footer {
+    margin-top: 5rem;
+  }
+}
+
+/* ---IPAD VERSION--- */
+@media (width: 1024px) {
+  .display-4 {
+    font-size: 2.5rem;
+  }
+
+  .lead {
+    font-size: 1.2rem;
+  }
+
+  article {
+    margin-left: 100px;
+  }
+
+  .ilustrasi {
+    width: 450px;
+  }
+
+  .img-about {
+    width: 300px;
+    margin-left: 50px;
+  }
+
+  #join .lead {
+    margin: 0 5rem;
+  }
+
+  .img-project {
+    height: 160px;
+  }
+}
+
+/* ---MOBILE-MINI VERSION--- */
+@media (width: 768px) {
+  /*Awal Navbar*/
+  .navbar {
+    padding: 1rem;
+  }
+
+  .mt-5 {
+    text-align: center;
+  }
+
+  .nav-link {
+    margin-left: 0;
+  }
+  /*Akhir Navbar*/
+
+  /*Awal Jumbotron*/
+  .container-jumbotron {
+    display: unset;
+    margin: 0 1rem;
+  }
+
+  .lead {
+    margin: 1rem;
+    text-align: center;
+  }
+
+  article {
+    margin-left: unset;
+    margin: 1rem;
+  }
+
+  .display-4 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  #about .lead {
+    margin-bottom: 3rem;
+  }
+
+  .button {
+    text-align: center;
+  }
+
+  .ilustrasi {
+    width: 400px;
+    margin: 1rem auto;
+  }
+  /*Akhir Jumbotron*/
+
+  /*Awal Card*/
+  .card-deck {
+    margin: 0 1rem;
+  }
+  /*Akhir Card*/
+
+  .title {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+  }
+
+  /* Project */
+  .col {
+    padding-top: 30px;
+  }
+
+  /*About*/
+  #about .row {
+    margin: 0 1rem !important;
+    display: unset;
+  }
+
+  .col-md-6 {
+    max-width: unset;
+  }
+
+  .col-md-5 {
+    max-width: unset;
+  }
+
+  #about .lead {
+    text-align: center;
+  }
+
+  .img-about {
+    width: 350px;
+    margin-left: 180px;
+  }
+
+  #join .lead {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+
+  .img-project {
+    height: 170px;
+  }
+}
+
+@media (width: 540px) {
+  .ilustrasi {
+    margin: 1rem 6.5rem;
+    width: 300px;
+  }
+
+  .img-about {
+    margin: 1rem 7.1rem;
+  }
+}
+
+@media (width: 360px) {
+  .ilustrasi {
+    margin: 1rem 1.3rem;
+  }
+
+  .img-about {
+    margin: 1rem 1.4rem;
+  }
+}
+
+@media (width: 320px) {
+  .ilustrasi {
+    margin: 1rem auto;
+    width: 250px;
+  }
+}
+
+@media (width: 280px) {
+  .ilustrasi {
+    margin: 1rem auto;
+    width: 220px;
+  }
+
+  .img-about {
+    width: 220px;
+  }
+
+  .img-project {
+    height: 140px;
+  }
+}

@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+/* Jumbotron */
+.display-4 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    text-align: left;
+}
+
+.jumbotron .container {
+    margin: 0 5rem;
+    padding: 2rem 0;
+}
+
+.accordion-button:focus {
+    border-color: #ffffff;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(255 255 255 / 25%);
+}
+
+.accordion-button:not(.collapsed) {
+    color: #000000; 
+    background-color: #ffffff; 
+    box-shadow: unset;
+}
+
+.accordion-button::after {
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .jumbotron .container {
+        margin: 0 auto;
+    }
+
+    .title {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .display-4 {
+        text-align: center;
+    }
+    
+  }
+

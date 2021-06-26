@@ -1,0 +1,13 @@
+body {
+  background-color: rgb(231, 231, 231);
+}
+
+img {
+  width: 670px;
+}
+
+@media (min-width: 280px) and (max-width: 990px) { 
+  img {
+    width: 200px;
+  }
+}
