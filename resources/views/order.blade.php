@@ -4,8 +4,8 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <link rel="icon" href="{{ asset('img/icon.png') }}" sizes="16x16" type="image/png">
     <title>ORDER - UICORE</title>
 
