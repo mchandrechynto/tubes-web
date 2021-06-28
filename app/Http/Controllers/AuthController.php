@@ -21,13 +21,13 @@ class AuthController extends Controller
 
         $credentials = $request->only('name', 'password');
         if (Auth::attempt($credentials)) {
-            return redirect()->intended('/dashboard-admin');
+            return redirect()->intended('dashboard-admin');
         }
-        return redirect('/admin')->withSuccess('Oppes! Silahkan Cek Inputanmu');
+        return redirect('admin')->withSuccess('Oppes! Silahkan Cek Inputanmu');
     }
     public function logout(Request $request) {
         $request->session()->flush();
         Auth::logout();
-        return Redirect('/admin');
+        return Redirect('admin');
     }
 }
