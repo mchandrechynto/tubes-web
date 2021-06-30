@@ -1,8 +1,7 @@
-Anggota Kelompok :
+## Anggota Kelompok :
 - Raditya Daffa Athalla     (201910370311204)
 - Aldhy Sidqi Priandayani   (201910370311226)
 - Moch Andre Cahyanto       (201910370311236)
-
 
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
